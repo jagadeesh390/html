@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <title>Contact Us - Bus Website</title>
+        <style>
+            /* Basic Reset for page structure */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Main Layout */
+            html, body {
+                height: 100%;
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* Header Section */
+            .head {
+                display: flex;
+                background-color: orange;
+                padding: 10px;
+                justify-content: center;
+            }
+
+            .head h4 {
+                margin-left: 20px;
+                color: white;
+                font-size: 18px;
+            }
+
+            .head a {
+                text-decoration: none;
+                color: white;
+                padding: 5px 15px;
+            }
+
+            .head a:hover {
+                background-color: #f1f1f1;
+                color: black;
+            }
+
+            /* Main Title */
+            h2 {
+                text-align: center;
+                background-color: blue;
+                color: white;
+                height: 60px;
+                line-height: 60px;
+                margin: 0;
+            }
+
+            /* Content Section */
+            .content {
+                display: flex;
+                justify-content: space-between;
+                margin: 20px;
+                flex-grow: 1;
+            }
+
+            .form-container, .image-container {
+                flex: 1;
+                padding: 20px;
+                margin-left: 30px;
+            }
+
+            .form-container h4 {
+                font-size: 22px;
+            }
+
+            .form-container p {
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+
+            /* Contact Form Styling */
+            .contact-form {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                background-color: #f9f9f9;
+            }
+
+            .contact-form label {
+                font-size: 16px;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .contact-form input, 
+            .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 14px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            .contact-form button {
+                padding: 10px 15px;
+                background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            .contact-form button:hover {
+                background-color: darkblue;
+            }
+
+            /* Image Styling */
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            /* Footer Section */
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin-top: auto; /* Ensures footer is pushed to the bottom */
+            }
+
+            footer p {
+                margin: 0;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Main Title -->
+        <h2>Contact Us</h2>
+
+        <!-- Header with Navigation Links -->
+        <div class="head">
+            <h4><a href="buses.html">Home</a></h4>
+            <h4><a href="services.html">Services</a></h4>
+            <h4><a href="contact.html">Contact</a></h4>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <!-- Form Container -->
+            <div class="form-container">
+                <h4>Get in Touch</h4>
+                <p>
+                    If you have any questions or inquiries, feel free to reach out to us! We are happy to assist you with any travel-related queries or help you book your next bus journey. Please fill out the form below or contact us through the information provided.
+                </p>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Image Container -->
+            
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Travelling Buses | All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
